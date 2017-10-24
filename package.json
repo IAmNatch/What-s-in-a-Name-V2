@@ -1,0 +1,20 @@
+{
+  "name": "whatsinaname-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run-script build-front && npm run-script start-back",
+    "start-back": "node server.js",
+    "build-front": "cd ./front && npm run-script build",
+    "build": "npm install & cd cd ./front & npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4"
+  }
+}

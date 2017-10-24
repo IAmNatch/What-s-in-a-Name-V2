@@ -1,0 +1,108 @@
+/* Utilities */
+.center-box {
+    text-align: center;
+}
+
+/* Fonts */
+
+h1 {
+    text-align: center;
+    font-size: 5vw;
+    font-family: Arvo;
+    letter-spacing: -2.6256px;
+
+    color: #000000;
+}
+
+.submit-text {
+    font-family: 'Roboto', sans-serif;
+}
+
+.service-text {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.selected-band-large {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.selected-band-small {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+/* Input */
+input, .submit, .message{
+    width: 50vw;
+    height: 4vw;
+    font-size: 3vw;
+    z-index: -1;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    font-family: roboto;
+    font-weight: 100;
+}
+
+.input-container {
+    margin-top: 10vw;
+}
+
+.submit, .message {
+    background-color: #1F7B53;
+    margin-top: 10px;
+}
+
+.message {
+    background-color: red;
+    margin: 10px auto;
+    font-size: 2vw;
+    line-height: 4vw;
+    background-color: #eab71e;
+}
+
+.search-icon {
+    transform: rotate(180deg);
+    position: absolute;
+    height: auto;
+    width: 2.5vw;
+    fill: #757575;
+    left: 25.5vw;
+    top: 13.75vw;
+}
+
+ /* Signs */
+
+.sign, .light {
+    height: 40vw;
+    width: auto;
+
+    max-height: 50%;
+}
+
+ .sign {
+     position: absolute;
+     bottom: 0px;
+     right: 20vw;
+ }
+
+ .light {
+     position: absolute;
+     bottom: 0px;
+     left: 85vw;
+
+ }
+
+ #Mini_Sign {
+    transform: translateX(0px);
+    transform-origin: center right;
+    transition: .5s ease;
+ }
+
+ .result {
+    position: absolute;
+    bottom: 28vw;
+    color: white;
+    font-family: lato;
+    font-size: 2vw;
+    transition: .5s ease;
+ }
