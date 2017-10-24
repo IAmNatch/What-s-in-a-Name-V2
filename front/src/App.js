@@ -70,7 +70,6 @@ class App extends Component {
         this.setState({
             bands: bands
         })
-        console.log('response set!');
     }
 
   render() {
