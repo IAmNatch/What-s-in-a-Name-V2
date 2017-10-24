@@ -101,6 +101,15 @@ input, .submit, .message{
 
  }
 
+ @media only screen and (max-width : 992px) {
+     .sign {
+         right: 30px;
+     }
+     .light {
+         right: 100px;
+     }
+ }
+
  #Mini_Sign {
     transform: translateX(0px);
     transform-origin: center right;
