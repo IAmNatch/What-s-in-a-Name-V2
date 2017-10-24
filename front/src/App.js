@@ -79,6 +79,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">What's in a name?</h1>
+          <h3>Search to see if your band's name username's available on four major music sites.</h3>
         </header>
         <div className="App">
             <BigInput handleSubmit={submitHandler} handleInputChange={this.handleInputChange} currentText={this.state.currentText} errorMessage={this.state.errorMessage} placeHolder='Type Band Name Here' />

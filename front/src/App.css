@@ -14,6 +14,15 @@ h1 {
     color: #000000;
 }
 
+h3 {
+    text-align: center;
+    margin-top: -3vw;
+    font-size: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+
+
+
 .submit-text {
     font-family: 'Roboto', sans-serif;
 }
